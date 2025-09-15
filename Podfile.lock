@@ -1,0 +1,73 @@
+PODS:
+  - RangersAppLog/Core (6.16.9):
+    - RangersAppLog/Encryptor/VOLC
+  - RangersAppLog/Encryptor/VOLC (6.16.9)
+  - RangersAppLog/Host/CN (6.16.9):
+    - RangersAppLog/Core
+  - TTNetworkManager (4.2.210.20)
+  - TTSDKFramework/BMF (1.46.2.11-premium):
+    - TTSDKFramework/Core
+  - TTSDKFramework/ByteAudio (1.46.2.11-premium):
+    - TTSDKFramework/RealXBase
+    - TTSDKFramework/RTCFFmpeg
+  - TTSDKFramework/Core (1.46.2.11-premium):
+    - RangersAppLog/Core (~> 6.16.8)
+    - RangersAppLog/Host/CN (~> 6.16.8)
+  - TTSDKFramework/Encode/h264 (1.46.2.11-premium)
+  - TTSDKFramework/Encode/h265 (1.46.2.11-premium)
+  - TTSDKFramework/LiveBase (1.46.2.11-premium):
+    - TTSDKFramework/Core
+    - TTSDKFramework/Reachability
+  - TTSDKFramework/LivePush (1.46.2.11-premium):
+    - TTSDKFramework/Encode/h264
+    - TTSDKFramework/Encode/h265
+    - TTSDKFramework/LivePush-Lite
+    - TTSDKFramework/LivePush-RTMPS
+    - TTSDKFramework/Quic/Push
+    - TTSDKFramework/ScreenCapture
+  - TTSDKFramework/LivePush-Lite (1.46.2.11-premium):
+    - TTSDKFramework/BMF
+    - TTSDKFramework/ByteAudio
+    - TTSDKFramework/Core
+    - TTSDKFramework/LiveBase
+    - TTSDKFramework/SSL
+    - TTSDKFramework/VolcLog
+  - TTSDKFramework/LivePush-RTMPS (1.46.2.11-premium):
+    - TTSDKFramework/LivePush-Lite
+    - TTSDKFramework/TTNet
+  - TTSDKFramework/Quic/Core (1.46.2.11-premium):
+    - TTSDKFramework/Core
+    - TTSDKFramework/SSL
+  - TTSDKFramework/Quic/Push (1.46.2.11-premium):
+    - TTSDKFramework/LivePush-Lite
+    - TTSDKFramework/Quic/Core
+  - TTSDKFramework/Reachability (1.46.2.11-premium)
+  - TTSDKFramework/RealXBase (1.46.2.11-premium)
+  - TTSDKFramework/RTCFFmpeg (1.46.2.11-premium)
+  - TTSDKFramework/ScreenCapture (1.46.2.11-premium):
+    - TTSDKFramework/LivePush-Lite
+    - TTSDKFramework/ScreenCaptureExtension
+  - TTSDKFramework/ScreenCaptureExtension (1.46.2.11-premium)
+  - TTSDKFramework/SSL (1.46.2.11-premium)
+  - TTSDKFramework/TTNet (1.46.2.11-premium):
+    - TTNetworkManager (= 4.2.210.20)
+  - TTSDKFramework/VolcLog (1.46.2.11-premium):
+    - TTSDKFramework/SSL
+
+DEPENDENCIES:
+  - TTSDKFramework/LivePush (= 1.46.2.11-premium)
+
+SPEC REPOS:
+  https://github.com/volcengine/volcengine-specs.git:
+    - RangersAppLog
+    - TTNetworkManager
+    - TTSDKFramework
+
+SPEC CHECKSUMS:
+  RangersAppLog: d4fa640a806e5fef583b07bea2f610684e81161e
+  TTNetworkManager: 6e3c1022cdea9757936b42c20db91477eb0d62ac
+  TTSDKFramework: 9ef7c8b1f48dd317644d3038e10c578aa58e375b
+
+PODFILE CHECKSUM: c2c040f8edca9b692dc349f6559b147ff5325479
+
+COCOAPODS: 1.16.2
